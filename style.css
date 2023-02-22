@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #066acd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  background: white;
+  border-radius: 10px;
+  min-width: 500px;
+  position: absolute;
+  min-height: 175px;
+  text-align: center;
+  height: 400px;
+}
+
+#toDosContainer {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 230px;
+  overflow-y: scroll;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+#toDosContainer::-webkit-scrollbar {
+  display: none;
+}
+
+#inputField {
+  width: 65%;
+  height: 15px;
+  padding: 15px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  left: -5px;
+}
+
+#addToDo {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #0d75ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  width: 18%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.todos {
+  margin-top: 25px;
+  width: 50%;
+}
+
+.paragraph-styling {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  width: 87%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#notice{
+    display: none;
+    margin-top: 15px;
+    color: red;
+}
